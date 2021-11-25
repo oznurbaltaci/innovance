@@ -18,6 +18,6 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: ega
     password: 12345
-    url: jdbc:postgresql://127.0.0.1:5432/postgres
+    url: jdbc:postgresql://localhost:5432/postgres
 
 
