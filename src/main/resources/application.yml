@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: innovance
+  jpa:
+    open-in-view: true
+    database: default
+    show-sql: true
+    properties:
+      hibernate:
+        show-sql: true
+        jdbc:
+          lob:
+            non_contextual_creation: true
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: ega
+    password: 12345
+    url: jdbc:postgresql://127.0.0.1:5432/postgres
+
+
