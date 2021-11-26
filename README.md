@@ -4,3 +4,5 @@ docker compose up
 
 komutu ile calistirilabilir.
 
+
+docker pull oznurbaltacii/innovance
